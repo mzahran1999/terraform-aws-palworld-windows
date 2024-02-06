@@ -62,7 +62,7 @@ variable "ssh_ingress_allowed_cidr" {
 variable "ami_id" {
   description = "The AMI ID to use. Not providing one will result in the latest version of Ubuntu Focal 20.04 being used"
   type        = string
-  default     = null
+  default     = ami-00d990e7e5ece7974
 }
 
 variable "instance_type" {
